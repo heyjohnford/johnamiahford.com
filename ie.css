@@ -1,0 +1,36 @@
+body{
+  background: url('images/bg2.png') #c0c0c0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/spotlight_big.png', sizingMethod='scale')";
+  margin-top: -50px;
+}
+h2{
+  padding: 15px 0 24px;
+  margin: 0;
+}
+#wrapper{
+  margin-top: 100px;
+}
+#main-content{
+  margin-bottom: 0;
+}
+#content a:hover{  
+  background: #BEC7CE;
+}
+#ie8{
+  font-size: small;
+  color: #555;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+#ie8 a, #ie8 a:visited{
+  color: #202020;
+  text-decoration: none;
+}
+#ie8 a:hover{
+  text-decoration: none;
+  border-bottom: 1px dotted #202020;
+}
+@font-face{
+  font-family: mightymechanic;src:url('fonts/mightymechanic.eot');
+}
